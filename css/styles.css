@@ -1,0 +1,75 @@
+/* Style sheet created by the homo gang */
+
+/*Style for body specifies a background */
+body {
+  background-color    : #FF9966;
+}
+
+/* Styles for container */
+#container {
+  width               : 80%;
+  margin-left         : auto;
+  margin-right        : auto;
+}
+
+/* styles for header specifically */
+header {
+  margin-top          : 10px;
+  margin-bottom       : 20px;
+  background-color    : #FF99CC;
+  border-radius       : 50px;
+  box-shadow          : 12px 12px 12px #404040;
+  text-align          : center;
+}
+
+/* Styles for nav specifically */
+nav {
+  font-family         : Georgia, "Times New Roman", serif;
+  font-size           : 1.25em;
+  font-weight         : bold;
+  text-align          : center;
+  padding             : 15px;
+  margin-top          : 10px;
+  margin-bottom       : 10px;
+  border-radius       : 20px;
+  border-top          : 5px solid #FFFFFF;
+  border-bottom       : 5px solid #FFFFFF;
+}
+
+/* style for main specifically */
+main {
+  display             : block;
+  font-family         : Verdana, Arial, san-sans-serif;
+  font-size           : 1em;
+  margin-top          : 20px;
+  margin-bottom       : 10px;
+  padding             : 20px;
+  border-radius       : 10px;
+  background-color    : #FFFFFF;
+  box-shadow          : 12px 12px 12px #404040;
+}
+
+/* Styles for footer specifically */
+footer {
+  font-size           : .70em;
+  text-align          : center;
+  margin-top          : 20px;
+}
+
+.equip {
+  float               : left;
+  padding-right       : 30px;
+}
+
+ul {
+  margin-bottom       : 50px;
+  list-style-position : inside;
+}
+
+dt {
+  font-weight         : bold;
+}
+
+dd {
+  padding-bottom      : 20px;
+}
