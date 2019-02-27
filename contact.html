@@ -33,7 +33,7 @@
       <h2>Ready to get started?</h2>
       <h2>Complete the form below to begin your free trial.</h2>
 
-      <form class="" action="index.html" method="post">
+      <form action="customer.php" method="post">
         <label for="fName">First Name:</label>
         <input type="text" name="fName" id="fName">
 
@@ -54,7 +54,7 @@
         </ul>
 
         <label for="reference"> Referral Source: </label>
-        <select id="reference" nane="reference">
+        <select id="reference" name="reference">
           <option value="ad"> Advertisment </option>
           <option value="friend"> Friend </option>
           <option value="google"> Google </option>
@@ -64,9 +64,11 @@
 
         <label for="questions">Questions?</label>
         <textarea id="questions" name="questions" rows="3" cols="25"> </textarea>
-      </form>
-      <input type="submit" id="submit" value="Submit Form" class="btn">
-      <input type="reset" id="reset" value="Reset Form" class="btn">
+
+        <input type="submit" id="submit" value="Submit" class="btn">
+        <input type="reset" id="reset" value="Reset Form" class="btn">
+
+    </form>
 
       <p>We are located at:<br>
       25743 Bloom Court<br>

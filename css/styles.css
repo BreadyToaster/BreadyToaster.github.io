@@ -1,4 +1,4 @@
-/* Style sheet made by the homo gang gang*/
+/* Style sheet created by: Long Nguyen, 18/01/2019 */
 
 /* Style for body specifies a background color */
 body {
@@ -107,34 +107,47 @@ footer a {
 }
 
 /* Style rule specifies to not display the equip class */
- .equip {
+.equip {
   display: none;
- }
+}
 
 /**/
 aside {
   font-style: italic;
 }
 
-/* */
-input, select, textarea, {
+/*Style rule for input, select, and textarea form element*/
+input, select, textarea {
   display: block;
   margin-bottom: 1em;
 }
 
-/* */
+/*Style rule for label element*/
 label {
   display: block;
 }
 
-/* */
+/*Style rule for unordered list within a form*/
 form ul {
   list-style-type: none;
 }
 
-/* */
+/*Style rule for chkbx class*/
 .chkbx {
   display: inline-block;
+}
+
+/* Style rule for the video class */
+.video {
+  padding: 1em;
+  text-align: center;
+}
+
+/* Style rule for the video elements */
+video {
+  border: 0.5em ridge #FFFFFF;
+  height: auto;
+  max-width: 100%;
 }
 
 /* Media query for tablet viewport targets screen size with a minimum width of 660px  */
@@ -197,12 +210,12 @@ form ul {
   dt {
     font-weight: bold;
     margin-top: 0.7em;
-   }
+  }
 
   /* Style for h1 element */
   h1 {
     text-align: center;
-   }
+  }
 
   /* Style for images within the figure element */
   figure img {
@@ -212,24 +225,24 @@ form ul {
     width: 28%;
     margin: 1%;
     padding: 1%;
-   }
+  }
 
   /* Style for anchor elements within the figure element */
   figure a {
     background-color: transparent;
     padding: 0;
     text-decoration: none;
-   }
+  }
 
   /**/
   section {
     padding-bottom: 3em;
-   }
+  }
 
   /**/
   section h1 {
     text-align: left;
-   }
+  }
 
   /**/
   section a {
@@ -238,7 +251,7 @@ form ul {
     font-weight: normal;
     padding: 0;
     text-decoration: underline;
-   }
+  }
 
   /**/
   .contact {
@@ -246,7 +259,7 @@ form ul {
     color: #1D1D1C;
     padding: 0;
     text-decoration: underline;
-   }
+  }
 
   /**/
   article {
@@ -256,14 +269,14 @@ form ul {
     padding: 0.5%;
     text-align: center;
     width: 31%;
-   }
+  }
 
   /**/
   main article img {
     border: solid 0.1em #1D1D1C;
     margin-left: auto;
     margin-right: auto;
-   }
+  }
 
   /**/
   main article p {
@@ -271,7 +284,7 @@ form ul {
     margin-top: 2%;
     padding: 1%;
     text-align: left;
-   }
+  }
 
   /**/
   main article ul {
@@ -287,46 +300,46 @@ form ul {
     margin: 1em;
   }
 
-  /** Styles for table element **/
-  table {
-    border: 0.1em solid #000000;
-    border-collapse: collapse;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-  }
+  /*Style for table element*/
+    table {
+      border: 0.1em solid #000000;
+      border-collapse: inherit;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+    }
 
- /* Styles for th, td elements */
- th, td {
-   border: 0.1em solid #000000;
-   padding: 1em;
- }
+    /* Style specifies border and padding for th and td elements*/
+    th, td {
+      border: 0.1em solid #000;
+      padding: 1em;
+    }
 
- /* Syles for th elements */
- th {
-   background-color: #1D1D1C;
-   color: #FFFFFF;
- }
+    /*Style for th element*/
+    th {
+      background-color: #1D1D1C;
+      color: #FFF;
+    }
 
- /* Styles for caption elements */
- caption {
-  font-size: 1.5em;
-  font-weight: bold;
-  padding-bottom: 0.5em;
- }
+    /*Style for caption element*/
+    caption {
+      font-size: 1.5em;
+      font-weight: bold;
+      padding-bottom: 0.5em;
+    }
 
- /* */
- label {
-   float: left;
-   padding-right: 0.5em;
-   text-align: right;
-   width: 10em;
- }
+    /*Style rule for label element*/
+    label {
+      float: left;
+      padding-right: 0.5em;
+      text-align: right;
+      width: 10em;
+    }
 
- /* */
- .btn {
-   margin-left: 12em;
- }
+    /*Style rule for btn class*/
+    .btn {
+      margin-left: 12em;
+    }
 
 }
 
@@ -402,6 +415,17 @@ form ul {
     width: 90%;
   }
 
+  /*Style for table element in desktop viewport*/
+  table {
+    background-color: #FFF;
+    width: 85%;
+  }
+
+  /*Style for caption element in desktop viewport*/
+  caption {
+    color: #FFF;
+  }
+
   /**/
   h1 {
     color: #FFFFFF;
@@ -409,7 +433,7 @@ form ul {
 
   /**/
   figure img {
-    height: 15em;
+    height: 23em;
     opacity: 0.7;
   }
 
@@ -460,25 +484,16 @@ form ul {
   /**/
   main article h2 {
     color: #000000;
+   }
+
+  /*Style rule for form element*/
+  form {
+    background-color: #FFFFFF;
+    padding: 1em;
   }
-/* Styles for table elements */
-table {
-  background-color: #FFFFFF;
-  width: 85%;
-}
 
-/* Style for caption elements */
-caption {
-  color: #FFFFFF;
-}
-
-/* */
-form {
-  background-color: #FFFFFF;
-  padding: 1em;
-}
-
-/* */
-form p {
-  color: #000000;
+  /*Style rule for paragraph with form element*/
+  form p {
+    color: #000000;
+  }
 }
